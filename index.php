@@ -42,13 +42,13 @@
       <div class="container align-items-center justify-content-start d-flex height-full">
         <h2 class="fade-in subtitle">Si la vida te da megapixeles, haz megafotos</h2>
       </div>
-    <section/>
+    </section>
 
     <section class="d-flex flex-column justify-content-center bg-iphone bg-image4">
       <div class="container align-items-center justify-content-end d-flex height-full">
         <h2 class="text-end fade-in subtitle">El mejor celular actualmente</h2>
       </div>
-    <section/>
+    </section>
   </main>
 
   <script src="./js/index.js">
