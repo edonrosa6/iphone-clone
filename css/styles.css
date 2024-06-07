@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primaryColor: #0051ff;
+
+  --blackColor: #000;
+  --whiteColor: #fff;
+}
+
+body {
+  font-family: "Kanit", sans-serif!important;
+  background: #0f0f0f!important;
+  color: var(--whiteColor)!important;
+}
+
+.title-2 {
+  font-size: 55px;
+}
+
+.subtitle {
+  width: 280px;
+}
+
+.subtitle-text {
+  font-size: 45px;
+}
+
+.container {
+  width: 55%!important;
+}
+
+ul, li, a, p, h1, h2, h3, h4, h5, h6, div {
+  color: var(--whiteColor);
+}
+
+.menu-items li a {
+  color: var(--whiteColor)!important;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.height-full {
+  height: 100vh;
+}
+
+.border-menu {
+  border-bottom: 1px solid #ffffff11;
+}
+
+.fade-in {
+  opacity: 1;
+  margin: 20px 0;
+}
+
+.bg-iphone {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  background-blend-mode: soft-light;
+  background-attachment: fixed;
+}
+
+.bg-image {
+  background-image: url("../assets/img/iphoneazul.png");
+}
+
+.bg-image2 {
+  background-image: url("../assets/img/iphonenegro.png");
+}
+
+.bg-image3 {
+  background-image: url("../assets/img/iphoneblanco.png");
+}
+
+.bg-image4 {
+  background-image: url("../assets/img/iphonenatural.png");
+}
+
+
+.fade-text {
+  animation: zoomIn 2s ease-in-out;
+}
+
+
+.btn-comprar {
+  border: 2px solid var(--primaryColor);
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 30px;
+  transition: all .2s ease-in-out;
+}
+
+.btn-comprar:hover {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+
+.fs-24 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 50px;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
