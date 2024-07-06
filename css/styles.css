@@ -4,20 +4,97 @@
 }
 
 :root {
-  --primaryColor: #0051ff;
-
+  --primaryColor: #00e6b2;
   --blackColor: #000;
   --whiteColor: #fff;
+  --grayColor: #999999;
 }
+
 
 body {
   font-family: "Kanit", sans-serif!important;
-  background: #0f0f0f!important;
+  background: #000!important;
   color: var(--whiteColor)!important;
+  scrollbar-width: thin!important; /* Ancho de la barra de desplazamiento */
+  scrollbar-color: #0f0f0f #474747!important; /* Color de la "thumb" y del track */
+}
+
+.text-xl {
+  font-size: 90px;
+}
+
+.bg-blur-green {
+  background-image: url("../assets/img/blur.png");
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-color: #000000b9;
+}
+
+body.dark-mode .bg-blur-green {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+  color: var(--grayColor);
+}
+
+.text-gray {
+  color: var(--grayColor)!important;
+}
+
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #fff!important; /* Color de fondo en modo oscuro */
+  color: #000!important; /* Color de texto en modo oscuro */
+}
+
+/* WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Color del track (fondo) de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1a1a1a; /* Color de la "thumb" (parte desplazable) */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #202020; /* Color de la "thumb" al pasar el cursor */
+}t-scrollbar-thumb:hover {
+  background-color: #555; /* Color de la "thumb" al pasar el cursor */
+}
+
+.button-main {
+  background-color: var(--primaryColor);
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: black;
+  border: none;
+  transition: all .3s ease-in-out;
+}
+
+.button-main:hover {
+  opacity: 0.6;
+}
+
+.space-sections {
+  padding: 100px!important;
 }
 
 .title-2 {
-  font-size: 55px;
+  font-size: 45px;
+  width: 350px;
+}
+
+.main-color {
+  color: var(--primaryColor);
 }
 
 .subtitle {
@@ -28,20 +105,44 @@ body {
   font-size: 45px;
 }
 
-.container {
-  width: 55%!important;
+.chip-text {
+  font-size: 33px;
+  line-height: 1em;
+  color: #777;
 }
 
-ul, li, a, p, h1, h2, h3, h4, h5, h6, div {
-  color: var(--whiteColor);
+.container {
+  width: 75%!important;
+}
+
+.siri-text {
+  font-size: 45px;
+  line-height: 1em;
+}
+
+.container-fluid {
+  width: 95%!important;
 }
 
 .menu-items li a {
+  color: var(--whiteColor);
+}
+
+body.dark-mode .menu-items li a {
+  color: var(--blackColor)!important;
+}
+
+body.dark-mode .dark-text-white {
+  color: var(--blackColor)!important;
+}
+
+.dark-text-white {
   color: var(--whiteColor)!important;
 }
 
+
 .title {
-  font-size: 100px;
+  font-size: 65px;
 }
 
 .height-full {
@@ -52,6 +153,18 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6, div {
   border-bottom: 1px solid #ffffff11;
 }
 
+.hover-text-white {
+  transition: all .2s ease-in-out;
+}
+
+.hover-text-white:hover {
+  color: var(--whiteColor)!important;
+}
+
+body.dark-mode .hover-text-white:hover {
+  color: var(--blackColor)!important;
+}
+
 .fade-in {
   opacity: 1;
   margin: 20px 0;
@@ -60,40 +173,104 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6, div {
 .bg-iphone {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 20%;
+  background-size: 50%;
   background-blend-mode: soft-light;
   background-attachment: fixed;
 }
 
+.blur {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.background-video {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 25%;
+  bottom: 0;
+  z-index: -1;
+  margin: auto;
+}
+
+
 .bg-image {
-  background-image: url("../assets/img/iphoneazul.png");
+  background-image: url("../assets/video/Calendar_v03.mp4");
 }
 
 .bg-image2 {
-  background-image: url("../assets/img/iphonenegro.png");
+  background-image: url("../assets/img/calendar.gif");
 }
 
+.progress-scroll {
+  height: 3px;
+  position: fixed;
+  top: 0;
+  background: var(--whiteColor);
+  width: 0%;
+  z-index: 99999;
+}
+
+
+body.dark-mode .progress-scroll {
+  background-color: var(--blackColor);
+}
+
+
 .bg-image3 {
-  background-image: url("../assets/img/iphoneblanco.png");
+  background-image: url("../assets/img/calendar.gif");
 }
 
 .bg-image4 {
-  background-image: url("../assets/img/iphonenatural.png");
+  background-image: url("../assets/img/calendar.gif");
 }
 
+.border-right {
+  border-right: 1px solid #333;
+}
+
+.btn-mode {
+  background-color: #1d1d1d;
+  color: var(--whiteColor);
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  width: 40px;
+  text-decoration: none;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.btn-mode:hover {
+  opacity: 0.6;
+  color: var(--whiteColor);
+}
 
 .fade-text {
   animation: zoomIn 2s ease-in-out;
 }
 
 
+
 .btn-comprar {
   border: 2px solid var(--primaryColor);
   border-radius: 50px;
-  color: #fff;
+  color: var(--whiteColor);
   text-decoration: none;
   padding: 6px 30px;
   transition: all .2s ease-in-out;
+  font-size: 24px;
+}
+
+body.dark-mode .btn-comprar{
+  color: var(--blackColor);
 }
 
 .btn-comprar:hover {
@@ -101,18 +278,141 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6, div {
   color: #fff;
 }
 
-
 .fs-24 {
   font-size: 24px;
 }
 
+.active {
+  font-weight: bold;
+  color: var(--primaryColor)!important;
+}
+
+.border-left {
+  border-left: 1px solid #333;
+}
+
+.text-per {
+  color: var(--whiteColor);
+}
+
+body.dark-mode .text-per {
+  color: var(--blackColor);
+}
+
+.space-double-section-x {
+  padding-left: 90px!important;
+  padding-right: 90px!important;
+}
+
+@media screen and (max-width: 998px) {
+  .siri-text {
+    font-size: 32px;
+  }
+
+  .border-left {
+    border: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 60px;
+    font-size: 65px;
   }
+
+  .space-sections {
+    padding: 22px!important;
+  }
+
+  .space-double-section-x {
+    padding-left: 32px!important;
+    padding-right: 32px!important;
+  }
+
+  .siri-text {
+    font-size: 30px;
+  }
+
+  .border-left {
+    border: none;
+  }
+
+  .title-2 {
+    font-size: 40px;
+  }
+
   .subtitle {
+    font-size: 30px;
+  }
+
+  .chip-text {
+    font-size: 22px;
+  }
+
+  .container {
+    width: 90%!important;
+  }
+
+  .bg-iphone {
+    background-size: 50%;
+  }
+
+  .btn-comprar {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+ .title {
+    font-size: 40px;
+  }
+
+  .space-double-section-x {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+
+  .space-sections {
+    padding: 20px!important;
+  }
+
+  .siri-text {
+    font-size: 28px;
+  }
+
+  .text-xl {
     font-size: 50px;
   }
+
+  .border-right {
+    border: none;
+  }
+
+  .title-2 {
+    font-size: 23px;
+    width: 150px;
+  }
+
+  .subtitle {
+    font-size: 21px;
+  }
+
+  .chip-text {
+    font-size: 20px;
+  }
+
+  .background-video {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 33%;
+    bottom: 0;
+    z-index: -1;
+    margin: auto;
+  }
+  
 }
 
 @keyframes zoomIn {

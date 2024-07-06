@@ -1,30 +1,54 @@
 <header>
   <nav
-    class="d-flex justify-content-between py-4 border-menu fixed-top container"
+    class="d-flex justify-content-between py-4 border-menu fixed-top w-100 blur"
   >
-    <div>
-      <a href="./">
-        <img
-          src="./assets/img/apple.png"
-          class="m-0 img-fluid"
-          width="30"
-          height="30"
-        />
-      </a>
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <a href="./">
+          <img
+            src="./assets/img/logo.png"
+            class="m-0 img-fluid"
+            width="100"
+            height="100"
+          />
+        </a>
+      </div>
+      <div class="mb-0 d-none d-md-block">
+        <ul class="mb-0 list-unstyled d-flex gap-4 menu-items">
+          <li>
+            <a
+              href="./"
+              class="text-decoration-none borderline-hover"
+              id="inicio-link"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              href="./nosotros.php"
+              class="text-decoration-none borderline-hover"
+              id="nosotros-link"
+              >Nosotros</a
+            >
+          </li>
+          <li>
+            <a
+              href="./servicios.php"
+              class="text-decoration-none borderline-hover"
+              id="servicios-link"
+              >Servicios</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-md-block">
+        <a
+          class="text-decoration-none borderline-hover dark-text-white"
+          href="./contacto.php"
+          id="contacto-link"
+          >Contacto</a
+        >
+      </div>
     </div>
-    <div class="mb-0">
-      <ul class="mb-0 list-unstyled d-flex gap-4 menu-items">
-        <li>
-          <a href="#" class="text-decoration-none text-dark">Inicio</a>
-        </li>
-        <li>
-          <a href="#" class="text-decoration-none text-dark">Nosotros</a>
-        </li>
-        <li>
-          <a href="#" class="text-decoration-none text-dark">Servicios</a>
-        </li>
-      </ul>
-    </div>
-    <div>Contacto</div>
   </nav>
 </header>
