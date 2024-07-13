@@ -19,6 +19,33 @@ body {
   scrollbar-color: #0f0f0f #474747!important; /* Color de la "thumb" y del track */
 }
 
+.underline-hover {
+  position: relative;
+  padding: 8px 10px;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primaryColor);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.text-md {
+  font-size: 24px;
+}
+
 .text-xl {
   font-size: 90px;
 }
@@ -27,6 +54,15 @@ body {
   background-image: url("../assets/img/blur.png");
   background-position: center;
   background-size: 40%;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-color: #000000b9;
+}
+
+.bg-blur-green-2 {
+  background-image: url("../assets/img/blur.png");
+  background-position: left;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
   background-color: #000000b9;
@@ -170,10 +206,10 @@ body.dark-mode .hover-text-white:hover {
   margin: 20px 0;
 }
 
-.bg-iphone {
+.bg-custom {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50%;
+  background-size: 60%;
   background-blend-mode: soft-light;
   background-attachment: fixed;
 }
@@ -181,6 +217,10 @@ body.dark-mode .hover-text-white:hover {
 .blur {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
+}
+
+.text-xxl {
+  font-size: 60px!important;
 }
 
 .background-video {
@@ -196,20 +236,24 @@ body.dark-mode .hover-text-white:hover {
   margin: auto;
 }
 
+.bg-video-conoce {
+  background-image: url("../assets/img/app.gif");
+}
+
 
 .bg-image {
   background-image: url("../assets/video/Calendar_v03.mp4");
 }
 
 .bg-image2 {
-  background-image: url("../assets/img/calendar.gif");
+  background-image: url("../assets/img/Wallet_v03.gif");
 }
 
 .progress-scroll {
   height: 3px;
   position: fixed;
   top: 0;
-  background: var(--whiteColor);
+  background: var(--primaryColor);
   width: 0%;
   z-index: 99999;
 }
@@ -221,11 +265,11 @@ body.dark-mode .progress-scroll {
 
 
 .bg-image3 {
-  background-image: url("../assets/img/calendar.gif");
+  background-image: url("../assets/img/Wallet_v03.gif");
 }
 
 .bg-image4 {
-  background-image: url("../assets/img/calendar.gif");
+  background-image: url("../assets/img/Wallet_v03.gif");
 }
 
 .border-right {
@@ -257,7 +301,13 @@ body.dark-mode .progress-scroll {
   animation: zoomIn 2s ease-in-out;
 }
 
+.min-h-350 {
+  min-height: 350px;
+}
 
+.min-h-600 {
+  min-height: 600px;
+}
 
 .btn-comprar {
   border: 2px solid var(--primaryColor);
@@ -291,6 +341,10 @@ body.dark-mode .btn-comprar{
   border-left: 1px solid #333;
 }
 
+.border-top {
+  border-top: 1px solid #333;
+}
+
 .text-per {
   color: var(--whiteColor);
 }
@@ -304,9 +358,55 @@ body.dark-mode .text-per {
   padding-right: 90px!important;
 }
 
-@media screen and (max-width: 998px) {
+.menu-mobile {
+  display: none;
+}
+.menu-mobile.open {
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: var(--blackColor);
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.menu-mobile ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu-mobile li {
+  padding: 10px 20px;
+}
+.menu-mobile a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+}
+
+
+@media screen and (max-width: 992px) {
+    
+  .text-xxl {
+    font-size: 25px!important;
+  }
+
+
   .siri-text {
     font-size: 32px;
+  }
+  
+  .border-right {
+    border: none;
   }
 
   .border-left {
@@ -315,8 +415,20 @@ body.dark-mode .text-per {
 }
 
 @media screen and (max-width: 768px) {
+  .text-xxl {
+    font-size: 20px!important;
+  }
+
   .title {
     font-size: 65px;
+  }
+
+  .min-h-600 {
+    min-height: auto;
+  }
+
+  .min-h-350 {
+    min-height: auto;
   }
 
   .space-sections {
@@ -337,7 +449,7 @@ body.dark-mode .text-per {
   }
 
   .title-2 {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .subtitle {
@@ -353,7 +465,7 @@ body.dark-mode .text-per {
   }
 
   .bg-iphone {
-    background-size: 50%;
+    background-size: 100%;
   }
 
   .btn-comprar {
@@ -364,6 +476,14 @@ body.dark-mode .text-per {
 @media screen and (max-width: 540px) {
  .title {
     font-size: 40px;
+  }
+  
+  .text-md {
+    font-size: 20px;
+  }
+
+  .bg-blur-green-2 {
+    background-position: top left;
   }
 
   .space-double-section-x {
@@ -383,12 +503,8 @@ body.dark-mode .text-per {
     font-size: 50px;
   }
 
-  .border-right {
-    border: none;
-  }
-
   .title-2 {
-    font-size: 23px;
+    font-size: 18px;
     width: 150px;
   }
 

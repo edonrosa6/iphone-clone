@@ -75,6 +75,11 @@
     <a class="btn-mode" href="#!" onclick="toggleDarkMode()" id="toggleMode"><i id="iconMode" class="fa-solid fa-sun"></i></a>
   </div>
 
+    <script>
+      function showMenu() {
+        document.getElementById('mobileMenu').classList.toggle('open');
+      }
+    </script>
     
     <script>
       window.onscroll = function() {

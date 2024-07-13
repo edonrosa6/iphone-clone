@@ -32,9 +32,9 @@
       
     </section>
 
-    <section class="d-flex flex-column justify-content-center bg-iphone bg-image position-relative">
+    <section class="d-flex flex-column justify-content-center bg-custom bg-image position-relative">
 
-      <video class="background-video fade-in" autoplay loop muted>
+      <video class="background-video" autoplay loop muted>
         <source src="./assets/video/Calendar_v03.mp4" type="video/mp4">
       </video>
 
@@ -54,29 +54,32 @@
 
 
   
-
-    <section class="d-flex flex-column justify-content-center bg-iphone bg-image2">
-      <div class="container align-items-center justify-content-end d-flex height-full">
-        <div class="subtitle">
-          <h2 class="text-end fade-in subtitle">Nueva cámara gran angular de 48 MP</h2>
+    <div class="bg-custom bg-image2">
+      <section class="d-flex flex-column justify-content-center">
+        <div class="container align-items-center justify-content-end d-flex height-full">
+          <div>
+            <h2 class="text-end fade-in title-2">Nueva APP Wallet Comfy RD 1.0</h2>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="d-flex flex-column justify-content-center bg-iphone bg-image3">
-      <div class="container align-items-center justify-content-start d-flex height-full">
-        <h2 class="fade-in subtitle">Si la vida te da megapixeles, haz megafotos</h2>
-      </div>
-    </section>
+      <section class="d-flex flex-column justify-content-center">
+        <div class="container align-items-center justify-content-start d-flex height-full">
+          <h2 class="fade-in title-2">Mira tus transacciones recientes</h2>
+        </div>
+      </section>
 
-    <section class="d-flex flex-column justify-content-center bg-iphone bg-image4">
-      <div class="container align-items-center justify-content-end d-flex height-full">
-        <h2 class="text-end fade-in subtitle">El mejor celular actualmente</h2>
-      </div>
-    </section>
+      <section class="d-flex flex-column justify-content-center">
+        <div class="container align-items-center justify-content-end d-flex height-full">
+          <h2 class="text-end fade-in title-2">Consulta tu Wallet</h2>
+        </div>
+      </section>
+    </div>
 
-      <!-- VIDEO CON TEXTO -->
-      <section class="py-5 d-flex flex-column justify-content-center">
+    
+
+    <!-- VIDEO CON TEXTO -->
+    <section class="py-5 d-flex flex-column justify-content-center">
       <div class="container">
         <video class="img-fluid fade-in" src="./assets/video/Service_v03.mp4" autoplay="true" muted="true" loop="true"></video>
 
@@ -126,14 +129,14 @@
           
 
           <div class="col-12 col-lg-6 d-flex flex-column justify-content-center border-left">
-            <div class="d-flex align-items-center space-double-section-x" style="min-height: 350px;">
-              <p class="chip-text "><span class="text-per fw-bold">Mejor Transporte en RD</span> trae más funcionalidades que nunca, y usa <span class="main-color">algoritmos</span> para geolocalizar tus pedidos.</p>
+            <div class="d-flex align-items-center space-double-section-x min-h-350">
+              <p class="chip-text py-3"><span class="text-per fw-bold">Mejor Transporte en RD</span> trae más funcionalidades que nunca, y usa <span class="main-color">algoritmos</span> para geolocalizar tus pedidos.</p>
             </div>
 
             <hr>
             <div>
-              <div class="space-double-section-x d-flex align-items-center" style="min-height: 350px;">
-                <p class="chip-text"><span class="text-per fw-bold">Mejor Transporte en RD</span> trae más funcionalidades que nunca, y usa <span class="main-color">algoritmos</span> para geolocalizar tus pedidos.</p>
+              <div class="space-double-section-x d-flex align-items-center min-h-350">
+                <p class="chip-text py-3"><span class="text-per fw-bold">Mejor Transporte en RD</span> trae más funcionalidades que nunca, y usa <span class="main-color">algoritmos</span> para geolocalizar tus pedidos.</p>
               </div>
             </div>
           </div>
@@ -146,15 +149,18 @@
     <section class="d-flex flex-column justify-content-center m-0">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-12 col-lg-6 d-flex justify-content-center align-items-end bg-blur-green space-sections border-right" style="min-height: 600px;">
+          <div class="col-12 col-lg-6 d-flex justify-content-center align-items-end bg-blur-green-2 space-sections border-right min-h-600">
             <div>
               <div class="m-0 h5 main-color mb-4">Próximamente este año</div>
               <h2 class="siri-text mb-5">Siri más a la mano, <br>sin usar las manos.</h2>
               <p class="mb-0 mt-3 h5">Con las <span class="text-white">Interacciones de Siri</span>, pronto vas a poder asentir o negar con la cabeza cuando Siri te pregunte si quieres contestar una llamada, escuchar un mensaje de texto o notificación, poner temporizadores y alarmas o comenzar un entrenamiento. Interactuar con Siri ahora será más fácil que nunca, incluso si tienes las manos ocupadas o no quieres hablar en voz alta.</p>
             </div>
+
           </div>
 
-          <div class="col-12 col-lg-6 d-flex justify-content-center align-items-end align-self-end bg-blur-green space-sections" style="min-height: 600px;">
+          <hr class="d-block d-lg-none">
+
+          <div class="col-12 col-lg-6 d-flex justify-content-center align-items-end align-self-end bg-blur-green-2 space-sections min-h-600">
             <div>
               <h2 class="siri-text mb-5">Control en la punta <br>de tus dedos.</h2>
               <p class="mb-0 mt-3 h5">Puedes controlar las funciones de reproducción con el <span class="text-white">control táctil</span> en la parte inferior. Desliza hacia arriba o hacia abajo para ajustar el volumen. Presiona una vez para reproducir y pausar la música o para silenciar y activar tu voz en una llamada, y dos veces para finalizarla. También puedes cambiar entrae modos de audio con una simple presión.</p>
@@ -167,6 +173,16 @@
 
       <hr class="m-0">
     </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h3 class="text-xxl fade-in">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dicta accusamus laborum? Labore, modi. Praesentium ducimus unde eius eum eveniet necessitatibus culpa, neque amet esse enim quod recusandae earum repellat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quam dolores unde assumenda corporis tenetur velit voluptate cum excepturi? Hic optio tempora quis! Porro provident libero deserunt labore repellendus quos.
+        </h3>
+      </div>
+      <hr class="mt-5">
+    </section>
   </main>
 
   <?php include("./includes/footer.html") ?>
@@ -178,6 +194,12 @@
         var scrolled = (winScroll / height) * 100;
         document.getElementById("progressBar").style.width = scrolled + "%";
     };
+  </script>
+
+  <script>
+    function showMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
   </script>
 
   <script src="./js/menu.js"></script>

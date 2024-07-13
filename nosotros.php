@@ -34,6 +34,11 @@
 
     <?php include("./includes/footer.html") ?>
 
+    <script>
+      function showMenu() {
+        document.getElementById('mobileMenu').classList.toggle('open');
+      }
+    </script>
     
     <script>
       window.onscroll = function() {

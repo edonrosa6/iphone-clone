@@ -13,12 +13,28 @@
           />
         </a>
       </div>
+
+      <div class="d-block d-md-none">
+        <a href="#!" onclick="showMenu()">
+          <i class="fa-solid fa-bars text-white"></i>
+        </a>
+      </div>
+
       <div class="mb-0 d-none d-md-block">
         <ul class="mb-0 list-unstyled d-flex gap-4 menu-items">
           <li>
             <a
+              href="./conoce-comfy.php"
+              class="text-decoration-none underline-hover"
+              id="conoce-comfy-link"
+            >
+              Conoce Comfy
+            </a>
+          </li>
+          <li>
+            <a
               href="./"
-              class="text-decoration-none borderline-hover"
+              class="text-decoration-none underline-hover"
               id="inicio-link"
               >Inicio</a
             >
@@ -26,7 +42,7 @@
           <li>
             <a
               href="./nosotros.php"
-              class="text-decoration-none borderline-hover"
+              class="text-decoration-none underline-hover"
               id="nosotros-link"
               >Nosotros</a
             >
@@ -34,7 +50,7 @@
           <li>
             <a
               href="./servicios.php"
-              class="text-decoration-none borderline-hover"
+              class="text-decoration-none underline-hover"
               id="servicios-link"
               >Servicios</a
             >
@@ -43,12 +59,47 @@
       </div>
       <div class="d-none d-md-block">
         <a
-          class="text-decoration-none borderline-hover dark-text-white"
+          class="text-decoration-none underline-hover dark-text-white"
           href="./contacto.php"
           id="contacto-link"
           >Contacto</a
         >
       </div>
+    </div>
+
+    <!-- MENU MOBILE -->
+    <div class="menu-mobile" style="margin-top: 60px" id="mobileMenu">
+      <ul class="mb-0 list-unstyled menu-items">
+        <li>
+          <a href="./" class="text-decoration-none" id="inicio-link-mobile"
+            >Inicio</a
+          >
+        </li>
+        <li>
+          <a
+            href="./nosotros.php"
+            class="text-decoration-none"
+            id="nosotros-link-mobile"
+            >Nosotros</a
+          >
+        </li>
+        <li>
+          <a
+            href="./servicios.php"
+            class="text-decoration-none"
+            id="servicios-link-mobile"
+            >Servicios</a
+          >
+        </li>
+        <li>
+          <a
+            href="./contacto.php"
+            class="text-decoration-none"
+            id="contacto-link-mobile"
+            >Contacto</a
+          >
+        </li>
+      </ul>
     </div>
   </nav>
 </header>
