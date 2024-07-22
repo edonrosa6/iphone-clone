@@ -32,13 +32,13 @@
     </section>
 
 
-    <div class="bg-video-conoce bg-custom">
+    <div class="bg-video-conoce bg-custom-right">
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h2 class="title-2">Cómo Publicar tu Vehículo</h2>
-              <p>Luego de descargar nuestra APP y haber completado el proceso de registro, 
+              <h2 class="title-2 fade-in">Cómo Publicar tu Vehículo</h2>
+              <p class="fade-in">Luego de descargar nuestra APP y haber completado el proceso de registro, 
                 dirigete a la seccion de MI PERFIL donde podras ver la opcion de PUBLICAR MI VEHICULO.
               </p>
             </div>
@@ -61,8 +61,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h2 class="title-2">Completa cada detalle de tu vehiculo</h2>
-              <p>Una vez en esa seccion tendras que suministrar todos los datos concernientes a tu
+              <h2 class="title-2 fade-in">Completa cada detalle de tu vehiculo</h2>
+              <p class="fade-in">Una vez en esa seccion tendras que suministrar todos los datos concernientes a tu
                 medio de transporte que deseas publicar, como por ejemplo marca, modelo, año,
                 color, accesorios, y caracteristicas que hacen a tu medio unico en su clase.
               </p>

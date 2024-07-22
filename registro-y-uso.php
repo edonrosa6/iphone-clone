@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="title">Publica Tu <span class="main-color">Vehículo</span></h1>
+            <h1 class="title">Registro <span class="main-color">y uso</span></h1>
           </div>
           <div class="col-md-6">
 
@@ -32,50 +32,113 @@
     </section>
 
 
-    <div class="bg-video-conoce bg-custom">
-      <section class="height-full d-flex justify-content-center align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="title-2">Cómo Publicar tu Vehículo</h2>
-              <p>Luego de descargar nuestra APP y haber completado el proceso de registro, 
-                dirigete a la seccion de MI PERFIL donde podras ver la opcion de PUBLICAR MI VEHICULO.
+      <div class="bg-custom-left bg-video-login">
+        <section class="height-full d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-6">
+                <p class="text-md text-white fade-in">Para acceder a los servicios de COMFY, debes registrarte y crear una cuenta.
+                  Proporcionar información precisa y actualizada durante el proceso de registro.
+                  Eres responsable de mantener la confidencialidad de tu cuenta y contraseña, y de
+                  todas las actividades que ocurran bajo tu cuenta.
               </p>
-            </div>
-
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
-                <div class="col-6"></div>
-                <div class="col-6"></div>
               </div>
             </div>
-
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
-      
-      <section class="height-full d-flex justify-content-center align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="title-2">Completa cada detalle de tu vehiculo</h2>
-              <p>Una vez en esa seccion tendras que suministrar todos los datos concernientes a tu
-                medio de transporte que deseas publicar, como por ejemplo marca, modelo, año,
-                color, accesorios, y caracteristicas que hacen a tu medio unico en su clase.
+      <div class="bg-custom-left bg-video-calendar">
+        <section class="height-full d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-6">
+                <p class="text-md text-white fade-in">Una vez que hayas completado el registro, puedes comenzar a buscar vehículos
+disponibles en tu área. Utiliza la función de búsqueda de la aplicación para filtrar
+los resultados según tus preferencias, como el tipo de transporte, la ubicación y
+las fechas de alquiler.
+
               </p>
+              </div>
             </div>
-            
-            <div class="col-md-6">
-              
-            </div>
-
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
+
+
+      <div class="bg-custom-right bg-video-calendar">
+        <section class="height-full d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="text-md text-white fade-in">Compara precios y características, establece tu propia oferta de renta,
+completando la reserva de manera rápida y sencilla a un solo clic.
+              </p>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      <div class="bg-custom-right bg-video-calendar">
+        <section class="height-full d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="title-2 fade-in main-color">Reembolso</h2>
+                <p class="text-md text-white fade-in">Compara precios y características, establece tu propia oferta de renta,
+completando la reserva de manera rápida y sencilla a un solo clic.
+              </p>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="bg-custom-right bg-video-calendar">
+        <section class="height-full d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="title-2 fade-in main-color">Proteccion COMFY</h2>
+                <p class="text-md text-white fade-in">Cada reserva esta sujeta a un seguro de vehiculo, el cual debe ser escogido ya sea
+atraves de nosotros o utilizando un servicio privado. Conoce mas sobre la
+proteccion COMFY 
+
+              </p>
+              <div class="mt-4">
+                <a href="#!" class="btn-comprar fade-in">Ver más</a>
+              </div>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      <div class="bg-custom-right bg-video-calendar">
+        <section class="height-full d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="title-2 fade-in main-color">Zona Free</h2>
+                <p class="text-md text-white fade-in">Despues de confirmar la reserva la entrega es super facil. En tu confirmacion
+podras ver lugares seguros desigandos como ¨Zonas Free¨ donde podras ver el
+horario e instrucciones para recoger el vehículo de manera independiente y
+totalmente gratis.
+              </p>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </section>
+      </div>
 
   
   </main>

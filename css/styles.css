@@ -24,6 +24,10 @@ body {
   padding: 8px 10px;
 }
 
+.text-lg {
+  font-size: 45px!important;
+}
+
 .underline-hover::after {
   content: '';
   position: absolute;
@@ -212,6 +216,28 @@ body.dark-mode .hover-text-white:hover {
   background-size: 60%;
   background-blend-mode: soft-light;
   background-attachment: fixed;
+}
+
+.bg-custom-left {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 60%;
+  background-attachment: fixed;
+}
+
+.bg-custom-right {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 60%;
+  background-attachment: fixed;
+}
+
+.bg-video-login {
+  background-image: url("../assets/img/login.gif");
+}
+
+.bg-video-calendar {
+  background-image: url("../assets/img/calendar.gif");
 }
 
 .blur {
@@ -476,6 +502,18 @@ body.dark-mode .text-per {
 @media screen and (max-width: 540px) {
  .title {
     font-size: 40px;
+  }
+
+  .bg-custom {
+    background-size: 100%;
+  }
+
+  .bg-custom-left {
+    background-size: 100%;
+  }
+
+  .bg-custom-right {
+    background-size: 100%;
   }
   
   .text-md {

@@ -34,7 +34,7 @@
     </section>
 
 
-    <div class="bg-video-conoce bg-custom">
+    <div class="bg-video-conoce bg-custom-right">
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
