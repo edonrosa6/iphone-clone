@@ -32,6 +32,39 @@
       
     </section>
 
+    <section class="py-4 fade-in">
+      <h2 class="title text-center">Categorías</h2>
+      <p class="text-center text-md">Explora nuestra dimensa flota de medios de transporte que se adapta a tu ocasión.</p>
+    </section>
+
+    <section class="section-video-cat fade-in" style="position: relative;">
+      <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Sport</h1>  
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Lambo_gif.mp4" class="img-fluid"></video>
+    </section>
+    
+    <section class="section-video-cat fade-in" style="position: relative;">
+      <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Eléctrico</h1>  
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Tesla_gif.mp4" class="img-fluid"></video>
+    </section>
+
+    <section class="section-video-cat fade-in" style="position: relative;">
+      <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Marítimo</h1>  
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/JetSky_gif.mp4" class="img-fluid"></video>
+    </section>
+
+        
+    <section class="section-video-cat fade-in" style="position: relative;">
+      <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Motores</h1>  
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Buggy_gif.mp4" class="img-fluid"></video>
+    </section>
+
+  
+    <section class="section-video-cat fade-in" style="position: relative;">
+      <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">4x4</h1>  
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Ford_gif.mp4" class="img-fluid"></video>
+    </section>
+
+
     <section class="d-flex flex-column justify-content-center bg-custom bg-image position-relative">
 
       <video class="background-video" autoplay loop muted>
@@ -39,17 +72,18 @@
       </video>
 
       <div class="container align-items-center d-flex height-full">
-        <h2 class="text-left fade-in title-2">Empresa de Transporte de Alta Calidad</h2>
+        <h2 class="text-left fade-in title-2">Herramientas</h2>
       </div>
 
       <div class="container align-items-center d-flex height-full">
-        <h2 class="text-left fade-in title-2">Revisa tu calendario</h2>
+        <h2 class="text-left fade-in title-2">Calendario</h2>
       </div>
 
       
       <div class="container justify-content-end align-items-center d-flex height-full">
-        <h2 class="text-end fade-in title-2">Aprovecha ahora!</h2>
+        <h2 class="text-end fade-in title-2">Traduccion</h2>
       </div>
+      
     </section>
 
 
@@ -183,6 +217,54 @@
       </div>
       <hr class="mt-5">
     </section>
+
+    <section class="py-4">
+        <div class="container d-flex height-full justify-content-center align-items-center">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <h1 class="title text-center">Contacta con <span class="main-color">nosotros</span></h1>
+              <p class="fs-24 fade-in text-center">En breve nos comunicaremos contigo.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="./enviar.php" method="POST">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nombre</label>
+                      <input name="name" type="text" class="form-control" id="input_name">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="last_name" class="form-label">Apellidos</label>
+                      <input name="last_name" type="text" class="form-control" id="input_name">
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" name="email" class="form-control" id="input_email" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Enviaremos un email a este correo en cuanto podamos.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Escribe tu mensaje</label>
+                  <textarea name="message" class="form-control" id="input_message" rows="5"></textarea>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="checkbox_terminos">
+                  <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+                </div>
+                <button type="submit" class="button-main">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
   </main>
 
   <?php include("./includes/footer.html") ?>
