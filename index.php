@@ -39,30 +39,131 @@
 
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Sport</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Lambo_gif.mp4" class="img-fluid"></video>
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Lambo_gif.mp4" class="img-fluid video-category"></video>
     </section>
     
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Eléctrico</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Tesla_gif.mp4" class="img-fluid"></video>
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Tesla_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Marítimo</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/JetSky_gif.mp4" class="img-fluid"></video>
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/JetSky_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
         
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Motores</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Buggy_gif.mp4" class="img-fluid"></video>
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Buggy_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
   
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">4x4</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Ford_gif.mp4" class="img-fluid"></video>
+      <video style="width: 100%;" autoplay muted loop src="./assets/video/Ford_gif.mp4" class="img-fluid video-category"></video>
     </section>
+
+    <section class="height-full d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="title">Herramientas innovadoras para una <span class="main-color">experiencia perfecta</span></h2>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="bg-custom-left bg-video-login">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <h3 class="text-lg main-color">Calendario Novedoso</h3>
+              <p class="text-md text-white fade-in">texto de prueba.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bg-custom-left bg-video-calendar">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <h3 class="text-lg main-color">Traducción Sin Limites</h3>
+              <p class="text-md text-white fade-in">texto de prueba.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="bg-custom-right bg-video-calendar">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="text-md text-white fade-in">Compara precios y características, establece tu propia oferta de renta, completando la reserva de manera rápida y sencilla a un solo clic.</p>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="bg-custom-right bg-video-calendar">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="title-2 fade-in main-color">Reembolso</h2>
+              <p class="text-md text-white fade-in">Compara precios y características, establece tu propia oferta de renta, completando la reserva de manera rápida y sencilla a un solo clic.</p>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bg-custom-right bg-video-calendar">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="title-2 fade-in main-color">Proteccion COMFY</h2>
+              <p class="text-md text-white fade-in">Cada reserva esta sujeta a un seguro de vehiculo, el cual debe ser escogido ya sea atraves de nosotros o utilizando un servicio privado. Conoce mas sobre la proteccion COMFY </p>
+            <div class="mt-4">
+              <a href="#!" class="btn-comprar fade-in">Ver más</a>
+            </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="bg-custom-right bg-video-calendar">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="title-2 fade-in main-color">Zona Free</h2>
+              <p class="text-md text-white fade-in">Despues de confirmar la reserva la entrega es super facil. En tu confirmacion podras ver lugares seguros desigandos como "Zonas Free" donde podras ver el horario e instrucciones para recoger el vehículo de manera independiente y totalmente gratis.</p>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </section>
+    </div>
 
 
     <section class="d-flex flex-column justify-content-center bg-custom bg-image position-relative">

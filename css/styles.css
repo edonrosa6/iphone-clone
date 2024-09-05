@@ -19,6 +19,10 @@ body {
   scrollbar-color: #0f0f0f #474747!important; /* Color de la "thumb" y del track */
 }
 
+.video-category {
+  opacity: 0.7;
+}
+
 .underline-hover {
   position: relative;
   padding: 8px 10px;
