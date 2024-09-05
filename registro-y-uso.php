@@ -48,8 +48,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6"></div>
-            <div class="col-md-6">
-              <p class="text-md text-white fade-in">Una vez que hayas completado el registro, puedes comenzar a buscar vehículos disponibles en tu área. Utiliza la función de búsqueda de la aplicación para filtrar los resultados según tus preferencias, como el tipo de transporte, la ubicación y las fechas de alquiler.</p>
+            <div class="col-md-6 fade-in">
+              <h2 class="main-color">Busqueda Por Destino</h2>
+              <p class="text-md text-white">Una vez que hayas completado el registro, puedes comenzar a buscar vehículos disponibles en tu área. Utiliza la función de búsqueda de la aplicación para filtrar los resultados según tus preferencias, como el tipo de transporte, la ubicación y las fechas de alquiler.</p>
             </div>
           </div>
         </div>
@@ -75,9 +76,9 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h2 class="title-2 fade-in main-color">Reembolso</h2>
-              <p class="text-md text-white fade-in">Compara precios y características, establece tu propia oferta de renta, completando la reserva de manera rápida y sencilla a un solo clic.</p>
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Reembolso</h2>
+              <p class="text-md text-white">Compara precios y características, establece tu propia oferta de renta, completando la reserva de manera rápida y sencilla a un solo clic.</p>
             </div>
             <div class="col-md-6"></div>
           </div>
@@ -89,12 +90,12 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h2 class="title-2 fade-in main-color">Proteccion COMFY</h2>
-              <p class="text-md text-white fade-in">Cada reserva esta sujeta a un seguro de vehiculo, el cual debe ser escogido ya sea atraves de nosotros o utilizando un servicio privado. Conoce mas sobre la proteccion COMFY </p>
-            <div class="mt-4">
-              <a href="#!" class="btn-comprar fade-in">Ver más</a>
-            </div>
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Proteccion COMFY</h2>
+              <p class="text-md text-white">Cada reserva esta sujeta a un seguro de vehiculo, el cual debe ser escogido ya sea atraves de nosotros o utilizando un servicio privado. Conoce mas sobre la proteccion COMFY </p>
+              <div class="mt-4">
+                <a href="#!" class="btn-comprar">Ver más</a>
+              </div>
             </div>
             <div class="col-md-6"></div>
           </div>
@@ -103,15 +104,17 @@
     </div>
 
 
-    <div class="bg-custom-right bg-video-calendar">
+    <div class="bg-custom-right">
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="title-2 fade-in main-color">Zona Free</h2>
-              <p class="text-md text-white fade-in">Despues de confirmar la reserva la entrega es super facil. En tu confirmacion podras ver lugares seguros desigandos como "Zonas Free" donde podras ver el horario e instrucciones para recoger el vehículo de manera independiente y totalmente gratis.</p>
+          <div class="row align-items-center">
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Zona Free</h2>
+              <p class="text-md text-white">Despues de confirmar la reserva la entrega es super facil. En tu confirmacion podras ver lugares seguros desigandos como "Zonas Free" donde podras ver el horario e instrucciones para recoger el vehículo de manera independiente y totalmente gratis.</p>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <video style="width: 80%;" autoplay muted loop src="./assets/video/freezone.mp4" class="img-fluid"></video>
+            </div>
           </div>
         </div>
       </section>

@@ -20,7 +20,7 @@ body {
 }
 
 .video-category {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .underline-hover {
@@ -229,6 +229,36 @@ body.dark-mode .hover-text-white:hover {
   background-attachment: fixed;
 }
 
+.fa-star {
+  color: var(--primaryColor);
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .mobile-review-container {
+    overflow-x: scroll;
+  }
+  .mobile-review-container > div {
+    width: 90%!important;
+    max-width: 90%!important;
+  }
+}
+
+
+.client-review {
+  border: 2px solid var(--primaryColor);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 20px -10px #fff;
+  -moz-box-shadow: 0px 3px 20px -10px #fff;
+  box-shadow: 0px 3px 20px -10px #fff;
+}
+
+.text-se-a-unido {
+  font-size: 13px;
+  color: #777;
+}
+
 .bg-custom-right {
   background-repeat: no-repeat;
   background-position: right;
@@ -242,6 +272,14 @@ body.dark-mode .hover-text-white:hover {
 
 .bg-video-calendar {
   background-image: url("../assets/img/calendar.gif");
+}
+
+.bg-video-wallet {
+  background-image: url("../assets/img/Wallet_v03.gif");
+}
+
+.bg-video-traduccion {
+  background-image: url("../assets/img/traduccion.gif");
 }
 
 .blur {
