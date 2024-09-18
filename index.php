@@ -23,8 +23,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-xl-12 col-sm-12">
-            <video class="img-fluid fade-in" autoplay muted>
+            <video class="img-fluid fade-in" autoplay muted playsinline>
               <source src="./assets/video/map.mp4" type="video/mp4">
+              Tu navegador no soporta la etiqueta de video.
             </video>
           </div>
         </div>
@@ -39,29 +40,29 @@
 
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Sport</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Lambo_gif.mp4" class="img-fluid video-category"></video>
+      <video style="width: 100%;" autoplay muted loop playsinline src="./assets/video/Lambo_gif.mp4" class="img-fluid video-category"></video>
     </section>
     
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Eléctrico</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Tesla_gif.mp4" class="img-fluid video-category"></video>
+      <video style="width: 100%;" autoplay muted loop playsinline src="./assets/video/Tesla_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Marítimo</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/JetSky_gif.mp4" class="img-fluid video-category"></video>
+      <video style="width: 100%;" autoplay muted loop playsinline src="./assets/video/JetSky_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
         
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">Motores</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Buggy_gif.mp4" class="img-fluid video-category"></video>
+      <video style="width: 100%;" autoplay muted loop playsinline src="./assets/video/Buggy_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
   
     <section class="section-video-cat fade-in" style="position: relative;">
       <h1 class="cat-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">4x4</h1>  
-      <video style="width: 100%;" autoplay muted loop src="./assets/video/Ford_gif.mp4" class="img-fluid video-category"></video>
+      <video style="width: 100%;" autoplay muted loop playsinline src="./assets/video/Ford_gif.mp4" class="img-fluid video-category"></video>
     </section>
 
     <section class="height-full d-flex justify-content-center align-items-center">
@@ -80,10 +81,14 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-              <h3 class="text-lg main-color">Calendario Novedoso</h3>
-              <p class="text-md text-white fade-in">texto de prueba.</p>
+            <div class="col-md-6 fade-in">
+              <div class="mobile-video">
+                <img src="./assets/img/calendar.gif" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-6 fade-in">
+              <h3 class="text-lg main-color text-center text-md-start">Calendario Novedoso</h3>
+              <p class="text-md text-white text-center text-md-start">Nuestro calendario exclusivo para socios te permite tener un control total sobre tus reservas. Podrás cerrar fechas de forma sencilla, visualizar de un vistazo diario la información de los arrendatarios, y administrar tu disponibilidad de manera eficiente. Todo está diseñado para que tengas el control de tu espacio y maximizar tus oportunidades de negocio.</p>
             </div>
           </div>
         </div>
@@ -94,11 +99,15 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h3 class="text-lg main-color">Traducción Sin Limites</h3>
-              <p class="text-md text-white fade-in">Compara precios y características, establece tu propia oferta de renta, completando la reserva de manera rápida y sencilla a un solo clic.</p>
+            <div class="col-md-6 fade-in">
+              <h3 class="text-lg main-color text-center text-md-start">Traducción Sin Limites</h3>
+              <p class="text-md text-white text-center text-md-start">En COMFY, eliminamos las barreras del idioma con nuestra innovadora herramienta de traducción dentro del chat. Tanto socios como arrendatarios pueden comunicarse fácilmente, sin importar el idioma, para coordinar reservas y detalles al instante. Nuestra tecnología garantiza conversaciones fluidas, permitiendo que todos se entiendan y gestionen su medio de transporte de manera rápida y eficiente.</p>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6 fade-in">
+              <div class="mobile-video">
+                <img src="./assets/img/traduccion.gif" class="img-fluid">
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -110,19 +119,16 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6">
-              <video style="width: 100%;" autoplay muted loop src="./assets/video/freezone.mp4" class="img-fluid"></video>
+              <video style="width: 100%;" autoplay muted loop playsinline src="./assets/video/freezone.mp4" class="img-fluid"></video>
             </div>
             <div class="col-md-6">
               <h3 class="text-lg main-color text-center">Zona Free</h3>
-              <p class="text-md text-white text-center">Despues de confirmar la reserva la entrega es super facil. En tu confirmacion podras ver lugares seguros desigandos como "Zonas Free" donde podras ver el horario e instrucciones para recoger el vehículo de manera independiente y totalmente gratis.</p>
+              <p class="text-md text-white text-center">Con nuestra herramienta Zona Free, te ofrecemos puntos estratégicos en lugares públicos designados para facilitar este proceso. Estas zonas son seguras y de fácil acceso, tanto para socios como para arrendatarios, garantizando una experiencia sin complicaciones. </p>
             </div>
           </div>
         </div>
       </section>
     </div>
-
-
-
 
 
   
@@ -242,6 +248,16 @@
         var scrolled = (winScroll / height) * 100;
         document.getElementById("progressBar").style.width = scrolled + "%";
     };
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var video = document.querySelector('.img-fluid.fade-in');
+      video.muted = true;
+      video.play().catch(function(error) {
+        console.log('Autoplay blocked by the browser.');
+      });
+    });
   </script>
 
   <script>

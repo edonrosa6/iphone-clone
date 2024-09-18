@@ -43,13 +43,15 @@
       </section>
     </div>
 
-    <div class="bg-custom-left bg-video-calendar">
+    <div>
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6"></div>
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-4">
+              <img src="./assets/img/buscar-comfy.jpg" class="img-fluid"/>
+            </div>
             <div class="col-md-6 fade-in">
-              <h2 class="main-color">Busqueda Por Destino</h2>
+              <h2 class="main-color">Búsqueda Por Destino</h2>
               <p class="text-md text-white">Una vez que hayas completado el registro, puedes comenzar a buscar vehículos disponibles en tu área. Utiliza la función de búsqueda de la aplicación para filtrar los resultados según tus preferencias, como el tipo de transporte, la ubicación y las fechas de alquiler.</p>
             </div>
           </div>
@@ -78,7 +80,10 @@
           <div class="row">
             <div class="col-md-6 fade-in">
               <h2 class="title-2 main-color">Reembolso</h2>
-              <p class="text-md text-white">Compara precios y características, establece tu propia oferta de renta, completando la reserva de manera rápida y sencilla a un solo clic.</p>
+              <p class="text-md text-white">Puedes cancelar una reserva y obtener un reembolso de acuerdo con las políticas 
+                de cancelación que hayas aceptado. <a href="#!">Conoce mas sobre nuestras politicas de
+                cancelaciones ver mas.</a>
+              </p>
             </div>
             <div class="col-md-6"></div>
           </div>
@@ -86,18 +91,20 @@
       </section>
     </div>
 
-    <div class="bg-custom-right bg-video-calendar">
+    <div>
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-6 fade-in">
-              <h2 class="title-2 main-color">Proteccion COMFY</h2>
+              <h2 class="title-2 main-color">Proteccion COMFY <img src="./assets/img/verificado.png" style="width: 50px;"/></h2>
               <p class="text-md text-white">Cada reserva esta sujeta a un seguro de vehiculo, el cual debe ser escogido ya sea atraves de nosotros o utilizando un servicio privado. Conoce mas sobre la proteccion COMFY </p>
               <div class="mt-4">
                 <a href="#!" class="btn-comprar">Ver más</a>
               </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <img src="./assets/img/proteccion-comfy.png" class="img-fluid"/>
+            </div>
           </div>
         </div>
       </section>
@@ -120,7 +127,91 @@
       </section>
     </div>
 
-  
+    <div class="bg-custom-right">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Delivery Fee</h2>
+              <p class="text-md text-white">
+                Algunos propietarios pueden ofrecer entregas directas del vehículo en un lugar
+                mucho mas conveniente para ti, estos lugares tienen el nombre de ¨Delivery Fee¨,
+                y estos conllevan un costo adiccional.
+              </p>
+            </div>
+            <div class="col-md-6">
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="bg-custom-right">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Inspección de vehículo en tiempo real</h2>
+              <p class="text-md text-white">
+                Antes de iniciar tu viaje, realiza una inspección en tiempo real a traves de nuestro
+                sistema integrado, asi podras asegurarte de que el vehiculo que estés recibiendo
+                este en buenas condiciones y sirve de prueba para cualquier inconveniente.
+              </p>
+            </div>
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bg-custom-right">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Devolución del vehículo</h2>
+              <p class="text-md text-white">
+                Al finalizar, devuelves el vehículo al propietario en el mismo lugar de recogida en
+                el horario establecido. En el momento de la entrega realizaras el mismo proceso de 
+                confirmacion de verificacion en tiempo real para asegurarte de que esté en la
+                misma condición que lo recibiste.
+              </p>
+            </div>
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bg-custom-right">
+      <section class="height-full d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 fade-in">
+              <h2 class="title-2 main-color">Calificación</h2>
+              <p class="text-md text-white">
+                Una vez completada la devolución e inspeccion del vehículo, la aplicación te
+                solicitara que califiques al propietario y dejes una reseña sobre tu experiencia de
+                alquiler.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                Las calificaciones proporcionan una forma de evaluar la confiabilidad y seguridad
+                de otros usuarios. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
   </main>
 
   <?php include("./includes/footer.html") ?>

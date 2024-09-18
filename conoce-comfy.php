@@ -20,21 +20,21 @@
   <main class="py-5">
   <section class="height-full d-flex justify-content-center align-items-center">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-6">
             <h1 class="title">Conoce <span class="main-color">COMFY</span></h1>
             <p class="text-md">Comfy es una empresa de autos compartidos que opera bajo un modelo de negocio peer-to-peer (P2P).</p>
             <a href="#!" class="main-color">¿Qué es P2P?</a>
           </div>
           <div class="col-md-6">
-
+            <img src="./assets/img/llaves.jpg" class="img-fuild"/>
           </div>
         </div>
       </div>
     </section>
 
 
-    <div class="bg-video-conoce bg-custom-right">
+    <div class="">
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row">
@@ -44,12 +44,7 @@
             </div>
 
             <div class="col-md-6">
-              <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
-                <div class="col-6"></div>
-                <div class="col-6"></div>
-              </div>
+              <img src="./assets/img/collage-vehiculos.jpg" class="img-fluid"/>
             </div>
 
           </div>
@@ -75,14 +70,15 @@
 
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-6">
               <h2 class="title-2">Soporte Vial 24/7</h2>
               <p>Nuestro Soporte Vial 24/7 es un servicio integral que garantiza asistencia en carretera las 24 horas del día, los 7 días de la semana. Ya sea que te encuentres en medio de la ciudad o en una carretera rural, nuestro equipo de profesionales está listo para ayudarte con cualquier inconveniente que pueda surgir durante tu viaje.</p>
             </div>
             
             <div class="col-md-6">
-              
+              <img src="./assets/img/soporte-vial.jpg" class="img-fluid"/>
+              <img src="./assets/img/carro-arriba-de-camion.jpg" class="img-fluid"/>
             </div>
 
           </div>
@@ -108,14 +104,14 @@
       
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-6">
               <h2 class="title-2">Comunidad COMFY</h2>
               <p>COMFY no es solo una aplicación de alquiler de autos, sino una comunidad de usuarios comprometidos que promueven su amor por la movilidad compartida. Los usuarios pueden conectarse con otros miembros, compartir sus experiencias de viaje, y recomendar vehículos y destinos favoritos, agregando un elemento humano y personal a la experiencia de alquiler.</p>
             </div>
             
             <div class="col-md-6">
-              
+              <img src="./assets/img/comunidad-comfy.jpg" class="img-fluid"/>
             </div>
 
           </div>
@@ -124,14 +120,14 @@
 
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-6">
-              <h2 class="title-2">Comunidad COMFY</h2>
+              <h2 class="title-2">Seguridad de tus datos</h2>
               <p>Integramos sistemas de seguridad tanto biométricos como encriptados para proteger los datos personales y bancarios de nuestros usuarios.</p>
             </div>
             
             <div class="col-md-6">
-              
+              <img src="./assets/img/candado-comfy.jpg" class="img-fluid"/>
             </div>
 
           </div>

@@ -10,13 +10,30 @@
   --grayColor: #999999;
 }
 
-
 body {
   font-family: "Kanit", sans-serif!important;
   background: #000!important;
   color: var(--whiteColor)!important;
-  scrollbar-width: thin!important; /* Ancho de la barra de desplazamiento */
-  scrollbar-color: #0f0f0f #474747!important; /* Color de la "thumb" y del track */
+  scrollbar-width: thin!important; /* Firefox */
+  scrollbar-color: #0f0f0f #474747!important; /* Firefox */
+}
+
+/* WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #202020;
 }
 
 .video-category {
@@ -88,31 +105,10 @@ p {
   color: var(--grayColor)!important;
 }
 
-
 /* Dark mode */
 body.dark-mode {
-  background-color: #fff!important; /* Color de fondo en modo oscuro */
-  color: #000!important; /* Color de texto en modo oscuro */
-}
-
-/* WebKit browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 12px; /* Ancho de la barra de desplazamiento */
-}
-
-::-webkit-scrollbar-track {
-  background: transparent; /* Color del track (fondo) de la barra de desplazamiento */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #1a1a1a; /* Color de la "thumb" (parte desplazable) */
-  border-radius: 10px; /* Bordes redondeados */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #202020; /* Color de la "thumb" al pasar el cursor */
-}t-scrollbar-thumb:hover {
-  background-color: #555; /* Color de la "thumb" al pasar el cursor */
+  background-color: #fff!important;
+  color: #000!important;
 }
 
 .button-main {
@@ -184,7 +180,6 @@ body.dark-mode .dark-text-white {
   color: var(--whiteColor)!important;
 }
 
-
 .title {
   font-size: 65px;
 }
@@ -219,6 +214,7 @@ body.dark-mode .hover-text-white:hover {
   background-position: center;
   background-size: 60%;
   background-blend-mode: soft-light;
+  -webkit-background-attachment: fixed;
   background-attachment: fixed;
 }
 
@@ -229,13 +225,34 @@ body.dark-mode .hover-text-white:hover {
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 768px) {
+  .bg-custom-right{
+    background-image: none!important;
+  }
+
+  .bg-custom-left  {
+    background-image: none!important;
+  }
+
+  .bg-video-calendar {
+    background-image: none!important;
+  }
+
+  .bg-video-traduccion {
+    background-image: none!important;
+  }
+}
+
+
 .fa-star {
   color: var(--primaryColor);
 }
 
+.mobile-video {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
-  
   .mobile-review-container {
     overflow-x: scroll;
   }
@@ -243,8 +260,11 @@ body.dark-mode .hover-text-white:hover {
     width: 90%!important;
     max-width: 90%!important;
   }
-}
 
+  .mobile-video {
+    display: block;
+  }
+}
 
 .client-review {
   border: 2px solid var(--primaryColor);
@@ -265,6 +285,7 @@ body.dark-mode .hover-text-white:hover {
   background-size: 60%;
   background-attachment: fixed;
 }
+
 
 .bg-video-login {
   background-image: url("../assets/img/login.gif");
@@ -295,6 +316,7 @@ body.dark-mode .hover-text-white:hover {
   width: 100%;
   height: 100%; 
   object-fit: cover;
+  -webkit-position: sticky;
   position: sticky;
   left: 0;
   right: 0;
@@ -307,7 +329,6 @@ body.dark-mode .hover-text-white:hover {
 .bg-video-conoce {
   background-image: url("../assets/img/app.gif");
 }
-
 
 .bg-image {
   background-image: url("../assets/video/Calendar_v03.mp4");
@@ -326,11 +347,9 @@ body.dark-mode .hover-text-white:hover {
   z-index: 99999;
 }
 
-
 body.dark-mode .progress-scroll {
   background-color: var(--blackColor);
 }
-
 
 .bg-image3 {
   background-image: url("../assets/img/Wallet_v03.gif");
@@ -395,7 +414,7 @@ body.dark-mode .progress-scroll {
   font-size: 24px;
 }
 
-body.dark-mode .btn-comprar{
+body.dark-mode .btn-comprar {
   color: var(--blackColor);
 }
 
@@ -469,22 +488,16 @@ body.dark-mode .text-per {
   margin: 5px;
 }
 
-
 @media screen and (max-width: 992px) {
-    
   .text-xxl {
     font-size: 25px!important;
   }
-
-
   .siri-text {
     font-size: 32px;
   }
-  
   .border-right {
     border: none;
   }
-
   .border-left {
     border: none;
   }
@@ -494,131 +507,99 @@ body.dark-mode .text-per {
   .text-xxl {
     font-size: 20px!important;
   }
-
   .title {
     font-size: 65px;
   }
-
   .min-h-600 {
     min-height: auto;
   }
-
   .min-h-350 {
     min-height: auto;
   }
-
   .space-sections {
     padding: 22px!important;
   }
-
   .space-double-section-x {
     padding-left: 32px!important;
     padding-right: 32px!important;
   }
-
   .siri-text {
     font-size: 30px;
   }
-
   .border-left {
     border: none;
   }
-
   .title-2 {
     font-size: 28px;
   }
-
-
-
   .subtitle {
     font-size: 30px;
   }
-
   .chip-text {
     font-size: 22px;
   }
-
   .container {
     width: 90%!important;
   }
-
   .bg-iphone {
     background-size: 100%;
   }
-
   .btn-comprar {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 540px) {
-
   .section-video-cat {
     margin-top: 114px;
   }
-
   .cat-title {
     font-size: 30px;
   }
-
   .mt-cat {
     margin-top: 200px;
   }
-
- .title {
+  .title {
     font-size: 40px;
   }
-
   .bg-custom {
     background-size: 100%;
   }
-
   .bg-custom-left {
     background-size: 100%;
   }
-
   .bg-custom-right {
     background-size: 100%;
   }
-  
   .text-md {
     font-size: 20px;
   }
-
   .bg-blur-green-2 {
     background-position: top left;
   }
-
   .space-double-section-x {
     padding-left: 10px!important;
     padding-right: 10px!important;
   }
-
   .space-sections {
     padding: 20px!important;
   }
-
   .siri-text {
     font-size: 28px;
   }
-
   .text-xl {
     font-size: 50px;
   }
-
   .title-2 {
     font-size: 18px;
     width: 150px;
   }
-
   .subtitle {
     font-size: 21px;
   }
-
   .chip-text {
     font-size: 20px;
   }
-
   .background-video {
     width: 100%;
     height: 100%; 
@@ -631,7 +612,6 @@ body.dark-mode .text-per {
     z-index: -1;
     margin: auto;
   }
-  
 }
 
 @keyframes zoomIn {
