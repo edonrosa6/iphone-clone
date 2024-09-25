@@ -7,7 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  
+  <?php include("./includes/favicon.html") ?>
+
   <link href="./css/styles.css" rel="stylesheet">
   <link href="./css/mobile-menu.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -95,15 +96,17 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row align-items-center">
+           
+            <div class="col-md-6">
+              <img src="./assets/img/proteccion-comfy.png" class="img-fluid"/>
+            </div>
+
             <div class="col-md-6 fade-in">
               <h2 class="title-2 main-color">Proteccion COMFY <img src="./assets/img/verificado.png" style="width: 50px;"/></h2>
               <p class="text-md text-white">Cada reserva esta sujeta a un seguro de vehiculo, el cual debe ser escogido ya sea atraves de nosotros o utilizando un servicio privado. Conoce mas sobre la proteccion COMFY </p>
               <div class="mt-4">
                 <a href="#!" class="btn-comprar">Ver más</a>
               </div>
-            </div>
-            <div class="col-md-6">
-              <img src="./assets/img/proteccion-comfy.png" class="img-fluid"/>
             </div>
           </div>
         </div>
@@ -131,6 +134,11 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row align-items-center">
+           
+            <div class="col-md-6">
+
+            </div>
+
             <div class="col-md-6 fade-in">
               <h2 class="title-2 main-color">Delivery Fee</h2>
               <p class="text-md text-white">
@@ -138,9 +146,6 @@
                 mucho mas conveniente para ti, estos lugares tienen el nombre de ¨Delivery Fee¨,
                 y estos conllevan un costo adiccional.
               </p>
-            </div>
-            <div class="col-md-6">
-
             </div>
           </div>
         </div>
@@ -172,6 +177,11 @@
       <section class="height-full d-flex justify-content-center align-items-center">
         <div class="container">
           <div class="row align-items-center">
+           
+            <div class="col-md-6">
+              
+            </div>
+
             <div class="col-md-6 fade-in">
               <h2 class="title-2 main-color">Devolución del vehículo</h2>
               <p class="text-md text-white">
@@ -180,9 +190,6 @@
                 confirmacion de verificacion en tiempo real para asegurarte de que esté en la
                 misma condición que lo recibiste.
               </p>
-            </div>
-            <div class="col-md-6">
-              
             </div>
           </div>
         </div>
@@ -241,6 +248,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 
-<script src="//code.tidio.co/55bgaxzaivmcg9ua7tgw0m7ln9gfegip.js" async></script>
+<script src="//code.tidio.co/gwmypl1dxur9caprqxci1owakkisuwtv.js" async></script>
 </body>
 </html>
